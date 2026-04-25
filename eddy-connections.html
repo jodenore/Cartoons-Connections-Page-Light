@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToonFrame</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- navbar section-->
+    <header class="toon-header toon-header-light">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand site-logo">ToonFrame</a>
+          <div class="profile-card d-md-none">
+            <img
+              src="assets/profile-edd.png"
+              alt="Edd Profile avatar"
+              class="profile-avatar"
+            />
+            <div class="profile-info d-none d-block-lg">
+              <p class="profile-name">Double D</p>
+              <p class="profile-username">@sockhead_dee_88</p>
+            </div>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- CodePen Toggler -->
+
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link active-link"
+                  >Friends & Connections</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Communities</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Messages</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main -->
+
+    <main class="page-main py-4 light-body">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-3">
+            <!-- side menu -->
+            <aside class="menu-panel">
+              <div class="profile-card">
+                <img
+                  src="assets/profile-edd.png"
+                  alt="Edd Profile avatar"
+                  class="profile-avatar"
+                />
+                <div class="profile-info">
+                  <p class="profile-name d-none d-lg-block">Double D</p>
+                  <p class="profile-username">
+                    @sockhead_dee_88
+                    <span class="status-dot online"></span>
+                  </p>
+                </div>
+              </div>
+              <ul class="menu-list">
+                <li class="menu-item">
+                  <a href="#" class="menu-link">Home</a>
+                </li>
+                <li class="menu-item active-item">
+                  <a href="#" class="menu-link"> Friends & Connections</a>
+                </li>
+
+                <li class="menu-item">
+                  <a href="#" class="menu-link">Communities</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link"> Messages</a>
+                </li>
+
+                <li class="menu-item">
+                  <a href="#" class="menu-link">Settings</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link">Log Out</a>
+                </li>
+              </ul>
+              <section class="sidebar-friends">
+                <p class="sidebar-heading">Friends (6)</p>
+                <ul class="friends-list">
+                  <li class="sidebar-friend">
+                    <img
+                      src="assets/friends/edd-friend-ed.png"
+                      alt="Ed Profile Picture"
+                      class="sidebar-avatar"
+                    />
+                    <div class="friend-info">
+                      <p class="friend-name">
+                        Ed
+                        <span class="status-dot online"></span>
+                      </p>
+                    </div>
+                  </li>
+                  <li class="sidebar-friend">
+                    <img
+                      src="assets/friends/edd-friend-eddy.png"
+                      alt="Eddy Profile Picture"
+                      class="sidebar-avatar"
+                    />
+                    <div class="friend-info">
+                      <p class="friend-name">
+                        Eddy
+                        <span class="status-dot offline"></span>
+                      </p>
+                    </div>
+                  </li>
+                  <li class="sidebar-friend">
+                    <img
+                      src="assets/friends/edd-friend-jimmy.png"
+                      alt="Jimmy Profile Picture"
+                      class="sidebar-avatar"
+                    />
+                    <div class="friend-info">
+                      <p class="friend-name">
+                        Jimmy
+                        <span class="status-dot"></span>
+                      </p>
+                    </div>
+                  </li>
+                  <li class="sidebar-friend">
+                    <img
+                      src="assets/friends/edd-friend-dexter.png"
+                      alt="Dexter Profile Picture"
+                      class="sidebar-avatar"
+                    />
+                    <div class="friend-info">
+                      <p class="friend-name">
+                        Dexter
+                        <span class="status-dot dnd"></span>
+                      </p>
+                    </div>
+                  </li>
+                  <li class="sidebar-friend">
+                    <img
+                      src="assets/friends/edd-friend-numbah-2.png"
+                      alt="Numbah 2 Profile Picture"
+                      class="sidebar-avatar"
+                    />
+                    <div class="friend-info">
+                      <p class="friend-name">
+                        Numbah 2
+                        <span class="status-dot online"></span>
+                      </p>
+                    </div>
+                  </li>
+                  <li class="sidebar-friend">
+                    <img
+                      src="assets/friends/edd-friend-mac.png"
+                      alt="Mac Profile Picture"
+                      class="sidebar-avatar"
+                    />
+                    <div class="friend-info">
+                      <p class="friend-name">
+                        Mac
+                        <span class="status-dot online"></span>
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </section>
+            </aside>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <!-- Friend Requests Section -->
+            <section class="friends-users panel-block">
+              <div class="section-head mb-5">
+                <h2 class="section-title">Friend Requests</h2>
+                <button class="btn section-action" type="button">
+                  Ignore All
+                </button>
+              </div>
+
+              <div class="card-list">
+                <article class="user-card">
+                  <img
+                    src="assets/requests/edd-request-nazz.png"
+                    alt="Nazz Profile Picture"
+                    class="user-avatar"
+                  />
+
+                  <div class="user-content">
+                    <p class="user-name">Nazz</p>
+                    <p class="user-handle">@culdesacNazz</p>
+                    <p class="mutual-friends">3 mutual friends</p>
+                  </div>
+
+                  <div class="card-actions">
+                    <button class="btn btn-accept" type="button">Accept</button>
+                    <button class="btn btn-ignore" type="button">Ignore</button>
+                  </div>
+                </article>
+                <article class="user-card">
+                  <img
+                    src="assets/requests/edd-request-rolf.png"
+                    alt="Rolf Profile Picture"
+                    class="user-avatar"
+                  />
+
+                  <div class="user-content">
+                    <p class="user-name">Rolf</p>
+                    <p class="user-handle">@goated_rolf</p>
+                    <p class="mutual-friends">1 mutual friend</p>
+                  </div>
+
+                  <div class="card-actions">
+                    <button class="btn btn-accept" type="button">Accept</button>
+                    <button class="btn btn-ignore" type="button">Ignore</button>
+                  </div>
+                </article>
+                <article class="user-card">
+                  <img
+                    src="assets/requests/edd-request-mandy.png"
+                    alt="Mandy Profile Picture"
+                    class="user-avatar"
+                  />
+
+                  <div class="user-content">
+                    <p class="user-name">Mandy</p>
+                    <p class="user-handle">@____mdy____</p>
+                    <p class="mutual-friends">0 mutual friends</p>
+                  </div>
+
+                  <div class="card-actions">
+                    <button class="btn btn-accept" type="button">Accept</button>
+                    <button class="btn btn-ignore" type="button">Ignore</button>
+                  </div>
+                </article>
+                <article class="user-card">
+                  <img
+                    src="assets/requests/edd-request-blossom.png"
+                    alt="Blossom Profile Picture"
+                    class="user-avatar"
+                  />
+
+                  <div class="user-content">
+                    <p class="user-name">Blossom</p>
+                    <p class="user-handle">@ppg___2</p>
+                    <p class="mutual-friends">1 mutual friend</p>
+                  </div>
+
+                  <div class="card-actions">
+                    <button class="btn btn-accept" type="button">Accept</button>
+                    <button class="btn btn-ignore" type="button">Ignore</button>
+                  </div>
+                </article>
+
+                <article class="user-card">
+                  <img
+                    src="assets/requests/edd-request-numbah-1.png"
+                    alt="Nigel Uno Profile Picture"
+                    class="user-avatar"
+                  />
+
+                  <div class="user-content">
+                    <p class="user-name">Nigel U.</p>
+                    <p class="user-handle">@nigelunoUno</p>
+                    <p class="mutual-friends">1 mutual friend</p>
+                  </div>
+
+                  <div class="card-actions">
+                    <button class="btn btn-accept" type="button">Accept</button>
+                    <button class="btn btn-ignore" type="button">Ignore</button>
+                  </div>
+                </article>
+              </div>
+            </section>
+            <!-- Blocked Users -->
+            <section class="blocked-users panel-block">
+              <div class="section-head">
+                <h2 class="section-title">Blocked Users</h2>
+              </div>
+
+              <div class="card-list">
+                <article class="user-card">
+                  <img
+                    src="assets/blocked/edd-blocked-1.png"
+                    alt="Blocked user picture"
+                    class="user-avatar blocked-user"
+                  />
+
+                  <div class="user-content">
+                    <p class="user-name">Marie K</p>
+                    <p class="user-handle">@marie_k_2</p>
+                  </div>
+
+                  <button class="btn btn-unblock" type="button">Unblock</button>
+                </article>
+              </div>
+            </section>
+          </div>
+          <div class="col-12 col-lg-3">
+            <!-- Group Invitations -->
+            <section class="group-requests panel-block">
+              <div class="section-head">
+                <h2 class="section-title">Group Invitations</h2>
+                <button class="btn section-action" type="button">
+                  Ignore all
+                </button>
+              </div>
+
+              <div class="card-list">
+                <article class="group-card">
+                  <img
+                    src="assets/groups/group-science-club.png"
+                    alt="Science Club icon"
+                    class="group-icon"
+                  />
+
+                  <div class="group-content">
+                    <p class="group-name">CN Science Club</p>
+                    <p class="group-meta">128 members</p>
+                  </div>
+
+                  <div class="card-actions">
+                    <button class="btn btn-ignore" type="button">Ignore</button>
+                    <button class="btn btn-accept" type="button">Join</button>
+                  </div>
+                </article>
+
+                <article class="group-card">
+                  <img
+                    src="assets/groups/group-urban-rangers.png"
+                    alt="Urban Rangers Flag"
+                    class="group-icon"
+                  />
+
+                  <div class="group-content">
+                    <p class="group-name">Urban Rangers</p>
+                    <p class="group-meta">3 members</p>
+                  </div>
+
+                  <div class="card-actions">
+                    <button class="btn btn-ignore" type="button">Ignore</button>
+                    <button class="btn btn-accept" type="button">Join</button>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <!-- Suggested Toons -->
+
+            <section class="toons-section panel-block">
+              <div class="section-head">
+                <h2 class="section-title">Toons You May Know</h2>
+              </div>
+
+              <div class="card-list">
+                <article class="user-card suggested-user-card">
+                  <img
+                    src="assets/suggested/ed-recommended-kevin.png"
+                    alt="Kevin profile picture"
+                    class="user-avatar"
+                  />
+                  <div class="user-content">
+                    <p class="user-name">Kevin</p>
+                    <p class="user-handle">@kev_35</p>
+                    <p class="mutual-friends">1 mutual friend</p>
+                  </div>
+                  <button class="btn btn-accept btn-add" type="button">
+                    Add
+                  </button>
+                </article>
+
+                <article class="user-card suggested-user-card">
+                  <img
+                    src="assets/suggested/ed-recommended-jonny.png"
+                    alt="Planks profile picture"
+                    class="user-avatar"
+                  />
+                  <div class="user-content">
+                    <p class="user-name">Jonny</p>
+                    <p class="user-handle">@melonhead_2by4</p>
+                    <p class="mutual-friends">3 mutual friends</p>
+                  </div>
+                  <button class="btn btn-accept btn-add" type="button">
+                    Add
+                  </button>
+                </article>
+
+                <article class="user-card suggested-user-card">
+                  <img
+                    src="assets/suggested/ed-recommended-plank.png"
+                    alt="Planks profile picture"
+                    class="user-avatar"
+                  />
+                  <div class="user-content">
+                    <p class="user-name">Plank</p>
+                    <p class="user-handle">@plank_2by4</p>
+                  </div>
+                  <button class="btn btn-accept btn-add" type="button">
+                    Add
+                  </button>
+                </article>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="site-footer">
+      <div class="container-fluid">
+        <div class="footer-container">
+          <div class="footer-content">
+            <p class="site-logo footer-logo">ToonFrame</p>
+            <p class="footer-text">
+              A cartoon connections project by, by <span>JW</span>
+            </p>
+          </div>
+          <nav class="footer-nav">
+            <a href="#" class="footer-link nav-link">About</a>
+            <a href="#" class="footer-link nav-link">Help</a>
+            <a href="#" class="footer-link nav-link">
+              <span class="footer-icon">GitHub</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <!-- BootStrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
